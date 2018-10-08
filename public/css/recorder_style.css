@@ -1,0 +1,153 @@
+* {
+    margin:0;
+	padding:0;
+    box-sizing: border-box; 
+    }
+
+body {
+	font-family: 'Cabin', sans-serif;
+	background-color: #e6ebef;
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+}
+
+.navbar {
+	background: #1b3247;
+	text-decoration-color: white;
+}
+
+h1 {
+	font-size: 45px;
+	text-align: left;
+	padding: 0 2%; 
+} 
+
+.toggleServices, .tab-content {
+	padding-left: 3%;
+}
+
+
+.btn-circle {
+	width: 60px !important;
+	height: 60px;
+	text-align: center;
+	padding: 6px 0;
+	font-size: 12px;
+	border-radius: 30px;
+} 
+
+
+.btn-group{
+	/*display: flex; 
+	/*display: inline-block; */
+    /*justify-content: space-between;
+	width: 40%;
+	/*padding: 1% 10%; 
+	/*padding-top: 3%; */
+	/*position: fixed;*/
+	/*margin: 1%%;
+	/* position: relative;
+	top: 15%;
+	right: 50%; */
+	/*float: left;*/
+
+	/*border-style: dotted;
+	border-color: green; */
+	
+	left: 13%;
+} 
+
+.glyphicon {
+	text-align: center;
+	font-size: 20px;
+}
+
+
+.btn:hover, .btn:active, .btn:focus .btn:disabled { 
+	color: #ffffff;
+	background-color: #119da4;
+}
+
+button {
+	color: #119da4;
+}
+
+.transcript {
+	width: 58%;
+	float: right;
+	padding-top: 1%;
+}
+
+.tab-content {
+	padding: 10px;
+} 
+
+h3 {
+	height: 80px;
+	margin: 300px auto;
+	padding-top: 25px;
+	text-align: center;
+	background-color: rgba(255,200,200,0.3);
+	color: rgb(150, 150, 150);
+	visibility: hidden;
+}
+
+footer {
+	position: fixed;
+    bottom: 0; 
+    width: 100%;
+    background-color: #1b3247;
+    color: #e6ebef;
+	text-align: center;
+}
+
+.landimg {
+	width: 60%;
+	display: block;
+	margin: 40px auto;
+}
+
+
+
+#identify-patient {
+	/*float: left;
+	/*width: 100%;*/
+	margin: 0 2%;
+	/*margin-left: 2%; */
+	
+
+	/*border-style: dotted;
+	border-color: blue;*/
+}
+
+
+/*.container {
+	margin: 0;
+
+	border-style: solid;
+	border-color: orange;
+
+} */
+
+.no-gutter > [class*='col-'] {
+    padding-right:0 !important; 
+    padding-left:0 !important;
+}
+
+#navbar-and-transcript {
+	/*float: left;
+	width: 100%;
+	z-index: -1;*/
+	/*margin-right: 2%;*/
+
+	
+
+
+	/*border-style: dotted;
+	border-color: red;*/
+}
+
+
+
+
